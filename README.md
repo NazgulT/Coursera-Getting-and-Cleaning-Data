@@ -4,7 +4,8 @@ Current repository was created as part of the Data Science: Getting and Cleaning
 
 The purpose of this project is to learn how to get and tidy the data set. We were provided with the data collected from Samsung Galaxy S smartphone accelerometers. The code for downloading and cleaning up the initial data is written in run_analysis.R file. In particular, the code performs the following steps:
 
-1. Download and unzip data set called "UHC HAR Dataset"
+run_analysis.R - description of main operations.
+1. Download and unzip data set called "UHC HAR Dataset" - the code is provided in run_analysis.R
 2. Unzip the motion file
 3. We will need only the following files to load into R
 
@@ -16,7 +17,7 @@ test/subject_test.txt, test/X_test.txt, test/y_test.txt, train/subject_train.txt
 
 6. Set the names columns in each data table
 
-7. Merget all tables together to get on huge data set
+7. Merged all tables together to get on huge data set
 
 8. Extract only the measurements on the mean and standard deviation for each measurement.
 Filter out only column names with mean and std in it using regular expression: "mean\\(\\)|std\\(\\)" and select from dplyr
@@ -33,5 +34,8 @@ set with the average of each variable for each activity and each subject.
 
 13. Save the result to a tidy data set
 
-14. Generate codebook with dataMaid library.
+codeBook_tidyData.pdf - is a codebook for the tidy data set we created in run_analysis.R
+Generated with dataMaid library.
+
+
 
