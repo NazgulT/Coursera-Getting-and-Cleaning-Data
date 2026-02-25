@@ -1,4 +1,4 @@
-# Coursera-Getting-and-Cleaning-Data
+# Getting and Cleaning Data
 
 Current repository was created as part of the Data Science: Getting and Cleaning Data course work on Coursera.com. 
 
